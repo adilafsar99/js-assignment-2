@@ -246,11 +246,12 @@ document.write("Estimated Maximum Age: " + max_age + " years<br />");
 document.write("Amount Of Snacks Per Day: " + daily_snacks + "<br />");
 document.write("You will need " + lifetime_snacks + " " + favorite_snack + "s to last you until the young age of " + max_age + " years.");
 }
+}
 
 else {
    alert("Invalid Input!");
 }
-}
+
 
 // ****** Chapter 6-9 ******
 else if (chapNumber === 6 || chapNumber === 7 || chapNumber === 8 || chapNumber === 8) {
@@ -416,10 +417,10 @@ total_percentage = (total_obt_marks * 100) / total_marks;
 
 document.write("<table>")
 document.write("<tr><th><center>Subject</center></th><th><center>Total Marks</center></th><th><center>Obtained Marks</center></th><th><center>Percentage</center></th></tr>")
-document.write("<tr><td><center>" + subject1 + "</center></td><td><center>" + max_marks + "</center></td><td><center>" + obt_marks1 + "</center></td><td><center>" + percentage1 + "</center></td></td>")
-document.write("<tr><td><center>" + subject2 + "</center></td><td><center>" + max_marks + "</center></td><td><center>" + obt_marks2 + "</center></td><td><center>" + percentage2 + "</center></td></td>")
-document.write("<tr><td><center>" + subject3 + "</center></td><td><center>" + max_marks + "</center></td><td><center>" + obt_marks3 + "</center></td><td><center>" + percentage3 + "</center></td></td>")
-document.write("<tr><td></td>" + "<td><center>" + total_marks + "</center></td><td><center>" + total_obt_marks + "</center></td><td><center>" + total_percentage + "</center></td></td>")
+document.write("<tr><td><center>" + subject1 + "</center></td><td><center>" + max_marks + "</center></td><td><center>" + obt_marks1 + "</center></td><td><center>" + percentage1 + "%" + "</center></td></td>")
+document.write("<tr><td><center>" + subject2 + "</center></td><td><center>" + max_marks + "</center></td><td><center>" + obt_marks2 + "</center></td><td><center>" + percentage2 + "%" + "</center></td></td>")
+document.write("<tr><td><center>" + subject3 + "</center></td><td><center>" + max_marks + "</center></td><td><center>" + obt_marks3 + "</center></td><td><center>" + percentage3 + "%" + "</center></td></td>")
+document.write("<tr><td></td>" + "<td><center>" + total_marks + "</center></td><td><center>" + total_obt_marks + "</center></td><td><center>" + total_percentage + "%" + "</center></td></td>")
 document.write("</table>")
 }
 }
