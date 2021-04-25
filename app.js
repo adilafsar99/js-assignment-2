@@ -422,7 +422,12 @@ document.write("<tr><td><center>" + subject3 + "</center></td><td><center>" + ma
 document.write("<tr><td></td>" + "<td><center>" + total_marks + "</center></td><td><center>" + total_obt_marks + "</center></td><td><center>" + total_percentage + "%" + "</center></td></td>")
 document.write("</table>")
 }
+
+else {
+   alert("Invalid Input!");
 }
+}
+
 else {
    alert("Invalid Input!");
 }
