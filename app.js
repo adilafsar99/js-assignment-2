@@ -128,7 +128,7 @@ multiple = multiplicand * multiplier;
 document.write(multiplicand + " × " + multiplier + " = " + multiple);
 }
 
-if (taskNumber === 6) {
+else if (taskNumber === 6) {
 //Question 6
 var heading = document.createElement("H1");
 var heading_text = document.createTextNode("The Temperature Converter");
@@ -142,7 +142,7 @@ celsius = (fahrenheit - 32) * (5 / 9);
 document.write(fahrenheit + "°F is " + celsius + "°C.<br />");
 }
 
-if (taskNumber === 7) {
+else if (taskNumber === 7) {
 //Question 7
 var heading = document.createElement("H1");
 var heading_text = document.createTextNode(" Shopping Cart");
@@ -164,7 +164,7 @@ document.write("Shipping Charges: " + shipping_charges + "$<br />");
 document.write("Total cost of your order: " + total_cost + "$");
 }
 
-if (taskNumber === 8) {
+else if (taskNumber === 8) {
 //Question 8
 var heading = document.createElement("H1");
 var heading_text = document.createTextNode("Marks Sheet");
