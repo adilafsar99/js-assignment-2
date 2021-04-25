@@ -255,7 +255,7 @@ else {
 // ****** Chapter 6-9 ******
 else if (chapNumber === 6 || chapNumber === 7 || chapNumber === 8 || chapNumber === 8) {
 alert("Chapter 6-9's tasks are all together!");
-var taskNumber === +prompt("Enter the task number to run the task you want to check: (From 1 to 6)");
+var taskNumber = +prompt("Enter the task number to run the task you want to check: (From 1 to 6)");
 if (taskNumber === 1) {
 //Question 1
 var a = 10;
@@ -422,7 +422,7 @@ document.write("<tr><td><center>" + subject3 + "</center></td><td><center>" + ma
 document.write("<tr><td></td>" + "<td><center>" + total_marks + "</center></td><td><center>" + total_obt_marks + "</center></td><td><center>" + total_percentage + "</center></td></td>")
 document.write("</table>")
 }
-
+}
 else {
    alert("Invalid Input!");
 }
