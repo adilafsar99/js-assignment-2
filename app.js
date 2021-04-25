@@ -7,12 +7,15 @@
 //var world_economy, fireForce, SalaryMan, x, loan;
 //var 5persona, !hero, alert, 6avr5, &friends;
 
+var chapNumber = +prompt("Enter chapter number to run its executable tasks: (From 4 to 9)");
+if (chapNumber === 4) {
 //Question 3
 //*3a
-//var heading = document.createElement("H1");
-//var heading_text = document.createTextNode("Rules for naming variables in JS");
-//heading.appendChild(heading_text);
-//document.body.appendChild(heading);
+var heading = document.createElement("H1");
+var heading_text = document.createTextNode("Rules for naming variables in JS");
+heading.appendChild(heading_text);
+document.body.appendChild(heading);
+}
 
 //*3b
 //letters, numbers, $, _
@@ -28,193 +31,226 @@
 
 //****** Chapter 5 ******
 
+else if (chapNumber === 5) {
+var taskNumber = +prompt("Enter the task number to run the task you want to check: (From 1 to 13)");
+if (taskNumber === 1) {
 //Question 1
-//var num1 = 5, num2 = 10;
-//var sum = num1 + num2;
-//document.write("The sum of " + num1 + " and " + num2 + " is " + sum);
+var num1 = 5, num2 = 10;
+var sum = num1 + num2;
+document.write("The sum of " + num1 + " and " + num2 + " is " + sum);
+}
 
+else if (taskNumber === 2) {
 //Question 2
 
 //Subtraction
-//var num1 = 5, num2 = 10;
-//var difference = num1 - num2;
-//document.write("The difference between " + num1 + " and " + num2 + " is " + difference);
+var num1 = 5, num2 = 10;
+var difference = num1 - num2;
+document.write("The difference between " + num1 + " and " + num2 + " is " + difference);
 
 //Multiplication
-//var num1 = 5, num2 = 10;
-//var product = num1 * num2;
-//document.write("The product of " + num1 + " and " + num2 + " is " + product);
+var num1 = 5, num2 = 10;
+var product = num1 * num2;
+document.write("The product of " + num1 + " and " + num2 + " is " + product);
 
 //Division
-//var num1 = 5, num2 = 10;
-//var quotient = num1 / num2;
-//document.write("The quotient of " + num1 + " divied by " + num2 + " is " + quotient);
+var num1 = 5, num2 = 10;
+var quotient = num1 / num2;
+document.write("The quotient of " + num1 + " divied by " + num2 + " is " + quotient);
 
 //Modulus
-//var num1 = 5, num2 = 10;
-//var remainder = num1 % num2;
-//document.write("The remainder of " + num1 + " divided by " + num2 + " is " + remainder);
+var num1 = 5, num2 = 10;
+var remainder = num1 % num2;
+document.write("The remainder of " + num1 + " divided by " + num2 + " is " + remainder);
+}
 
+else if (taskNumber === 3) {
 //Question 3
-//var some_variable;
-//document.write("Value of the variable after declaration: " + some_variable + "<br />");
-//some_variable = 11;
-//document.write("Inital value of variable: " + some_variable + "<br />");
-//some_variable++;
-//document.write("Value after increment: " + some_variable + "<br />");
-//some_variable += 7;
-//document.write("Value after adding 7: " + some_variable + "<br />");
-//some_variable--;
-//document.write("Value after decrement: " + some_variable + "<br />");
-//var remainder;
-//remainder = some_variable % 3;
-//document.write("The remainder after division by 3: " + remainder);
+var some_variable;
+document.write("Value of the variable after declaration: " + some_variable + "<br />");
+some_variable = 11;
+document.write("Inital value of variable: " + some_variable + "<br />");
+some_variable++;
+document.write("Value after increment: " + some_variable + "<br />");
+some_variable += 7;
+document.write("Value after adding 7: " + some_variable + "<br />");
+some_variable--;
+document.write("Value after decrement: " + some_variable + "<br />");
+var remainder;
+remainder = some_variable % 3;
+document.write("The remainder after division by 3: " + remainder);
+}
 
+else if (taskNumber === 4) {
 //Question 4
-//var ticket_price = 600;
-//document.write("The cost of a single movie ticket is " + ticket_price + "PKR.<br />");
-//ticket_price *= 5;
-//document.write(" The cost of five movie tickets is " + ticket_price + "PKR.");
+var ticket_price = 600;
+document.write("The cost of a single movie ticket is " + ticket_price + "PKR.<br />");
+ticket_price *= 5;
+document.write("The cost of five movie tickets is " + ticket_price + "PKR.");
+}
 
+else if (taskNumber === 5) {
 //Question 5
 //Table Of 5
 
-//var heading = document.createElement("H1");
-//var heading_text = document.createTextNode("Table Of 5");
-//heading.appendChild(heading_text);
-//document.body.appendChild(heading);
-//var multiplicand = 5, multiplier = 1, multiple = 5;
-//document.write(multiplicand + " × " + multiplier + " = " + multiple + "<br />");
-//multiplier++;
-//multiple = multiplicand * multiplier;
-//document.write(multiplicand + " × " + multiplier + " = " + multiple + "<br />");
-//multiplier++;
-//multiple = multiplicand * multiplier;
-//document.write(multiplicand + " × " + multiplier + " = " + multiple + "<br />");
-//multiplier++;
-//multiple = multiplicand * multiplier;
-//document.write(multiplicand + " × " + multiplier + " = " + multiple + "<br />");
-//multiplier++;
-//multiple = multiplicand * multiplier;
-//document.write(multiplicand + " × " + multiplier + " = " + multiple + "<br />");
-//multiplier++;
-//multiple = multiplicand * multiplier;
-//document.write(multiplicand + " × " + multiplier + " = " + multiple + "<br />");
-//multiplier++;
-//multiple = multiplicand * multiplier;
-//document.write(multiplicand + " × " + multiplier + " = " + multiple + "<br />");
-//multiplier++;
-//multiple = multiplicand * multiplier;
-//document.write(multiplicand + " × " + multiplier + " = " + multiple + "<br />");
-//multiplier++;
-//multiple = multiplicand * multiplier;
-//document.write(multiplicand + " × " + multiplier + " = " + multiple + "<br />");
-//multiplier++;
-//multiple = multiplicand * multiplier;
-//document.write(multiplicand + " × " + multiplier + " = " + multiple);
+var heading = document.createElement("H1");
+var heading_text = document.createTextNode("Table Of 5");
+heading.appendChild(heading_text);
+document.body.appendChild(heading);
+var multiplicand = 5, multiplier = 1, multiple = 5;
+document.write(multiplicand + " × " + multiplier + " = " + multiple + "<br />");
+multiplier++;
+multiple = multiplicand * multiplier;
+document.write(multiplicand + " × " + multiplier + " = " + multiple + "<br />");
+multiplier++;
+multiple = multiplicand * multiplier;
+document.write(multiplicand + " × " + multiplier + " = " + multiple + "<br />");
+multiplier++;
+multiple = multiplicand * multiplier;
+document.write(multiplicand + " × " + multiplier + " = " + multiple + "<br />");
+multiplier++;
+multiple = multiplicand * multiplier;
+document.write(multiplicand + " × " + multiplier + " = " + multiple + "<br />");
+multiplier++;
+multiple = multiplicand * multiplier;
+document.write(multiplicand + " × " + multiplier + " = " + multiple + "<br />");
+multiplier++;
+multiple = multiplicand * multiplier;
+document.write(multiplicand + " × " + multiplier + " = " + multiple + "<br />");
+multiplier++;
+multiple = multiplicand * multiplier;
+document.write(multiplicand + " × " + multiplier + " = " + multiple + "<br />");
+multiplier++;
+multiple = multiplicand * multiplier;
+document.write(multiplicand + " × " + multiplier + " = " + multiple + "<br />");
+multiplier++;
+multiple = multiplicand * multiplier;
+document.write(multiplicand + " × " + multiplier + " = " + multiple);
+}
 
+if (taskNumber === 6) {
 //Question 6
-//var heading = document.createElement("H1");
-//var heading_text = document.createTextNode("The Temperature Converter");
-//heading.appendChild(heading_text);
-//document.body.appendChild(heading);
-//var celsius = 37;
-//var fahrenheit = (celsius * (9 / 5)) + 32;
-//document.write(celsius + "°C is " + fahrenheit + "°F.<br />");
-//fahrenheit = 212;
-//celsius = (fahrenheit - 32) * (5 / 9);
-//document.write(fahrenheit + "°F is " + celsius + "°C.<br />");
+var heading = document.createElement("H1");
+var heading_text = document.createTextNode("The Temperature Converter");
+heading.appendChild(heading_text);
+document.body.appendChild(heading);
+var celsius = 37;
+var fahrenheit = (celsius * (9 / 5)) + 32;
+document.write(celsius + "°C is " + fahrenheit + "°F.<br />");
+fahrenheit = 212;
+celsius = (fahrenheit - 32) * (5 / 9);
+document.write(fahrenheit + "°F is " + celsius + "°C.<br />");
+}
 
+if (taskNumber === 7) {
 //Question 7
-//var heading = document.createElement("H1");
-//var heading_text = document.createTextNode(" Shopping Cart");
-//heading.appendChild(heading_text);
-//document.body.appendChild(heading);
-//var item1_price = 400;
-//var item2_price = 790;
-//var item1_quantity = 8;
-//var item2_quantity = 6;
-//var item1_total_price = item1_price * item1_quantity;
-//var item2_total_price = item2_price * item2_quantity;
-//var shipping_charges = 200;
-//var total_cost = item1_total_price + item2_total_price + shipping_charges;
-//document.write("Price of Item 1: " + item1_price + "$<br />");
-//document.write("Quantity of Item 1: " + item1_quantity + " units<br />");
-//document.write("Price of Item 2: " + item2_price + "$<br />");
-//document.write("Quantity of Item 2: " + item2_quantity + " units<br />");
-//document.write("Shipping Charges: " + shipping_charges + "$<br />");
-//document.write("Total cost of your order: " + total_cost + "$");
+var heading = document.createElement("H1");
+var heading_text = document.createTextNode(" Shopping Cart");
+heading.appendChild(heading_text);
+document.body.appendChild(heading);
+var item1_price = 400;
+var item2_price = 790;
+var item1_quantity = 8;
+var item2_quantity = 6;
+var item1_total_price = item1_price * item1_quantity;
+var item2_total_price = item2_price * item2_quantity;
+var shipping_charges = 200;
+var total_cost = item1_total_price + item2_total_price + shipping_charges;
+document.write("Price of Item 1: " + item1_price + "$<br />");
+document.write("Quantity of Item 1: " + item1_quantity + " units<br />");
+document.write("Price of Item 2: " + item2_price + "$<br />");
+document.write("Quantity of Item 2: " + item2_quantity + " units<br />");
+document.write("Shipping Charges: " + shipping_charges + "$<br />");
+document.write("Total cost of your order: " + total_cost + "$");
+}
 
+if (taskNumber === 8) {
 //Question 8
-//var heading = document.createElement("H1");
-//var heading_text = document.createTextNode("Marks Sheet");
-//heading.appendChild(heading_text);
-//document.body.appendChild(heading);
-//var total_marks = 1100;
-//var obtained_marks = 877;
-//var percentage = (obtained_marks * 100) / total_marks;
-//document.write("Total marks: " + total_marks + "<br />");
-//document.write("Obtained marks: " + obtained_marks + "<br />");
-//document.write("Percentage: " + percentage + "%");
+var heading = document.createElement("H1");
+var heading_text = document.createTextNode("Marks Sheet");
+heading.appendChild(heading_text);
+document.body.appendChild(heading);
+var total_marks = 1100;
+var obtained_marks = 877;
+var percentage = (obtained_marks * 100) / total_marks;
+document.write("Total marks: " + total_marks + "<br />");
+document.write("Obtained marks: " + obtained_marks + "<br />");
+document.write("Percentage: " + percentage + "%");
+}
 
+else if (taskNumber === 9) {
 //Question 9
-//var heading = document.createElement("H1");
-//var heading_text = document.createTextNode("Currency In PKR");
-//heading.appendChild(heading_text);
-//document.body.appendChild(heading);
-//var us_dollars = 10;
-//var saudi_riyals = 25;
-//var pakistani_rupees = (us_dollars * 152.88) + (saudi_riyals * 40.76);
-//document.write("US Dollars: " + us_dollars + "<br />");
-//document.write("Saudi Riyals: " + saudi_riyals + "<br />");
-//document.write(" Total currency in PKR: " + pakistani_rupees);
+var heading = document.createElement("H1");
+var heading_text = document.createTextNode("Currency In PKR");
+heading.appendChild(heading_text);
+document.body.appendChild(heading);
+var us_dollars = 10;
+var saudi_riyals = 25;
+var pakistani_rupees = (us_dollars * 152.88) + (saudi_riyals * 40.76);
+document.write("US Dollars: " + us_dollars + "<br />");
+document.write("Saudi Riyals: " + saudi_riyals + "<br />");
+document.write(" Total currency in PKR: " + pakistani_rupees);
+}
 
+else if (taskNumber === 10) {
 //Question 10
-//var another_variable = 20;
-//var result = (another_variable + 5) * 10 / 2
-//document.write("The initial value of the variable is " + another_variable + ".")
-//document.write("The result of random arithmetic is " + result + ".");
+var another_variable = 20;
+var result = (another_variable + 5) * 10 / 2
+document.write("The initial value of the variable is " + another_variable + ".")
+document.write("The result of random arithmetic is " + result + ".");
+}
 
+else if (taskNumber === 11) {
 //Question 11
-//var heading = document.createElement("H1");
-//var heading_text = document.createTextNode(" Age Calculator");
-//heading.appendChild(heading_text);
-//document.body.appendChild(heading);
-//var current_year = 2021;
-//var birth_year1 = 2001, birth_year2 = 2002;
-//var age1 = current_year - birth_year1;
-//var age2 = current_year - birth_year2;
-//document.write("Current Year: " + current_year + "<br />")
-//document.write("Birth Year: " + birth_year1 + " or " + birth_year2 + "<br />")
-//document.write("You are either " + age1 + " or " + age2 + " years old.");
+var heading = document.createElement("H1");
+var heading_text = document.createTextNode(" Age Calculator");
+heading.appendChild(heading_text);
+document.body.appendChild(heading);
+var current_year = 2021;
+var birth_year1 = 2001, birth_year2 = 2002;
+var age1 = current_year - birth_year1;
+var age2 = current_year - birth_year2;
+document.write("Current Year: " + current_year + "<br />")
+document.write("Birth Year: " + birth_year1 + " or " + birth_year2 + "<br />")
+document.write("You are either " + age1 + " or " + age2 + " years old.");
+}
 
+else if (taskNumber === 12) {
 //Question 12
-//var heading = document.createElement("H1");
-//var heading_text = document.createTextNode("Geometrizer");
-//heading.appendChild(heading_text);
-//document.body.appendChild(heading);
-//var radius = 20;
-//var circumference = 2 * 3.142 * radius;
-//var area = 3.142 * (radius * radius);
-//document.write("Radius of circle: " + radius + "cm<br />");
-//document.write("Circumference of circle: " + circumference + "cm<br />");
-//document.write("Area of circle: " + area + "cm<br />");
+var heading = document.createElement("H1");
+var heading_text = document.createTextNode("Geometrizer");
+heading.appendChild(heading_text);
+document.body.appendChild(heading);
+var radius = 20;
+var circumference = 2 * 3.142 * radius;
+var area = 3.142 * (radius * radius);
+document.write("Radius of circle: " + radius + "cm<br />");
+document.write("Circumference of circle: " + circumference + "cm<br />");
+document.write("Area of circle: " + area + "cm<br />");
+}
 
+else if (taskNumber === 13) {
 //Question 13
-//var heading = document.createElement("H1");
-//var heading_text = document.createTextNode("The Lifetime Supply Calculator");
-//heading.appendChild(heading_text);
-//document.body.appendChild(heading);
-//var favorite_snack = "Favorite Snack";
-//var current_age = 20;
-//var max_age = 30;
-//var daily_snacks = 1;
-//var lifetime_snacks = daily_snacks * 365 * (max_age - current_age);
-//document.write("Favorite Snack: " + favorite_snack + "<br />");
-//document.write("Current Age: " + current_age + " years<br />");
-//document.write("Estimated Maximum Age: " + max_age + " years<br />");
-//document.write("Amount Of Snacks Per Day: " + daily_snacks + "<br />");
-//document.write("You will need " + lifetime_snacks + " " + favorite_snack + "s to last you until the young age of " + max_age + " years.");
+var heading = document.createElement("H1");
+var heading_text = document.createTextNode("The Lifetime Supply Calculator");
+heading.appendChild(heading_text);
+document.body.appendChild(heading);
+var favorite_snack = "Favorite Snack";
+var current_age = 20;
+var max_age = 30;
+var daily_snacks = 1;
+var lifetime_snacks = daily_snacks * 365 * (max_age - current_age);
+document.write("Favorite Snack: " + favorite_snack + "<br />");
+document.write("Current Age: " + current_age + " years<br />");
+document.write("Estimated Maximum Age: " + max_age + " years<br />");
+document.write("Amount Of Snacks Per Day: " + daily_snacks + "<br />");
+document.write("You will need " + lifetime_snacks + " " + favorite_snack + "s to last you until the young age of " + max_age + " years.");
+}
+
+else {
+   alert("Invalid Input!");
+}
+}
 
 // ****** Chapter 6-9 ******
 //Question 1
