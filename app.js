@@ -246,12 +246,12 @@ document.write("Estimated Maximum Age: " + max_age + " years<br />");
 document.write("Amount Of Snacks Per Day: " + daily_snacks + "<br />");
 document.write("You will need " + lifetime_snacks + " " + favorite_snack + "s to last you until the young age of " + max_age + " years.");
 }
-}
+
 
 else {
    alert("Invalid Input!");
 }
-
+}
 
 // ****** Chapter 6-9 ******
 else if (chapNumber === 6 || chapNumber === 7 || chapNumber === 8 || chapNumber === 8) {
