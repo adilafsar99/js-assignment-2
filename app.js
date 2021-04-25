@@ -196,7 +196,7 @@ else if (taskNumber === 10) {
 //Question 10
 var another_variable = 20;
 var result = (another_variable + 5) * 10 / 2
-document.write("The initial value of the variable is " + another_variable + ".")
+document.write("The initial value of the variable is " + another_variable + ".<br />")
 document.write("The result of random arithmetic is " + result + ".");
 }
 
