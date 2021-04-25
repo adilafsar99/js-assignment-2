@@ -247,14 +247,13 @@ document.write("Amount Of Snacks Per Day: " + daily_snacks + "<br />");
 document.write("You will need " + lifetime_snacks + " " + favorite_snack + "s to last you until the young age of " + max_age + " years.");
 }
 
-
 else {
    alert("Invalid Input!");
 }
 }
 
 // ****** Chapter 6-9 ******
-else if (chapNumber === 6 || chapNumber === 7 || chapNumber === 8 || chapNumber === 8) {
+else if (chapNumber === 6 || chapNumber === 7 || chapNumber === 8 || chapNumber === 9) {
 alert("Chapter 6-9's tasks are all together!");
 var taskNumber = +prompt("Enter the task number to run the task you want to check: (From 1 to 6)");
 if (taskNumber === 1) {
