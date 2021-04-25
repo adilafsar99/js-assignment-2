@@ -46,17 +46,17 @@ else if (taskNumber === 2) {
 //Subtraction
 var num1 = 5, num2 = 10;
 var difference = num1 - num2;
-document.write("The difference between " + num1 + " and " + num2 + " is " + difference);
+document.write("The difference between " + num1 + " and " + num2 + " is " + difference + "<br />");
 
 //Multiplication
 var num1 = 5, num2 = 10;
 var product = num1 * num2;
-document.write("The product of " + num1 + " and " + num2 + " is " + product);
+document.write("The product of " + num1 + " and " + num2 + " is " + product + "<br />");
 
 //Division
 var num1 = 5, num2 = 10;
 var quotient = num1 / num2;
-document.write("The quotient of " + num1 + " divied by " + num2 + " is " + quotient);
+document.write("The quotient of " + num1 + " divied by " + num2 + " is " + quotient + "<br />");
 
 //Modulus
 var num1 = 5, num2 = 10;
@@ -258,155 +258,171 @@ alert("Chapter 6-9's tasks are all together!");
 var taskNumber === +prompt("Enter the task number to run the task you want to check: (From 1 to 6)");
 if (taskNumber === 1) {
 //Question 1
-//var a = 10;
-//document.write("Result:<br />");
-//document.write("The value of a is: " + a + "<br />");
-//document.write("..........................<br /><br />");
-//document.write("The value of ++a is: " + ++a + "<br />");
-//document.write("Now the value of a is: " + a + "<br /><br /><br />");
-//document.write("The value of a++ is: " + a++ + "<br />");
-//document.write("Now the value of a is: " + a + "<br /><br /><br />");
-//document.write("The value of --a is: " + --a + "<br />");
-//document.write("Now the value of a is: " + a + "<br /><br /><br />");
-//document.write("The value of a-- is: " + a-- + "<br />");
-//document.write("Now the value of a is: " + a + "<br /><br /><br />");
+var a = 10;
+document.write("Result:<br />");
+document.write("The value of a is: " + a + "<br />");
+document.write("..........................<br /><br />");
+document.write("The value of ++a is: " + ++a + "<br />");
+document.write("Now the value of a is: " + a + "<br /><br /><br />");
+document.write("The value of a++ is: " + a++ + "<br />");
+document.write("Now the value of a is: " + a + "<br /><br /><br />");
+document.write("The value of --a is: " + --a + "<br />");
+document.write("Now the value of a is: " + a + "<br /><br /><br />");
+document.write("The value of a-- is: " + a-- + "<br />");
+document.write("Now the value of a is: " + a + "<br /><br /><br />");
 }
 
+else if (taskNumber === 2) {
 //Question 2
-//var a = 2, b = 1;
-//var result = --a - --b + ++b + b--;
-//document.write("--a: Value of a is decremented by one. (a = 1, result = 1)<br />");
-//document.write("--a - --b: Value of b is decremented by one and is subtracted from the decremented value of a. (a = 1, b = 0, result = 1)<br />");
-//document.write("--a - --b + ++b: Value of b is incremented by one and added to the value obtained in the previous step. (a = 1, b = 1, result = 2)<br />");
-//document.write("--a- --b + ++b + b--: Value of b is added to the value obtained in the previous step and the b is decremented by one. (a = 1, b = 1, result = 3)<br />");
+var a = 2, b = 1;
+var result = --a - --b + ++b + b--;
+document.write("--a: Value of a is decremented by one. (a = 1, result = 1)<br />");
+document.write("--a - --b: Value of b is decremented by one and is subtracted from the decremented value of a. (a = 1, b = 0, result = 1)<br />");
+document.write("--a - --b + ++b: Value of b is incremented by one and added to the value obtained in the previous step. (a = 1, b = 1, result = 2)<br />");
+document.write("--a- --b + ++b + b--: Value of b is added to the value obtained in the previous step and the b is decremented by one. (a = 1, b = 1, result = 3)<br />");
+}
 
+else if (taskNumber === 3) {
 //Question 3
-//var question = "Enter your name:";
-//var answer = prompt(question);
-//alert("Hi " + answer + ".");
+var question = "Enter your name:";
+var answer = prompt(question);
+alert("Hi " + answer + ".");
+}
 
+else if (taskNumber === 4) {
+   alert("Task 4 doesn't exist");
+}
+
+else if (taskNumber === 5) {
 //Question 5
-//var multiplicand = 5, multiplier = 1, multiple = 5;
-//var message = "Enter a number to see its multiplication table:"
-//var userInput = prompt(message);
-//if (userInput === null || userInput === "") {
-//				document.write("Table Of 5<br />")
-//				for (var i = 0; i < 10; i++) {
-//								document.write(multiplicand + " x " + multiplier + " = " + multiple + "<br />");
-//								multiplier++;
-//								multiple = multiplicand * multiplier;
-//				}
-//			 }
+var multiplicand = 5, multiplier = 1, multiple = 5;
+var message = "Enter a number to see its multiplication table:"
+var userInput = prompt(message);
+if (userInput === null || userInput === "") {
+   document.write("Table Of 5<br />")
+   for (var i = 0; i < 10; i++) {
+	document.write(multiplicand + " x " + multiplier + " = " + multiple + "<br />");
+	multiplier++;
+	multiple = multiplicand * multiplier;
+   }
+}
 
-//else {
-//				multiplicand = eval(userInput);
-//				multiple = multiplicand * multiplier;
-//				document.write(" Table Of " + multiplicand + "<br />");
-//				for (var i = 0; i < 10; i++) {
-//								document.write(multiplicand + " x " + multiplier + " = " + multiple + "<br />");
-//								multiplier++;
-//								multiple = multiplicand * multiplier;
-//				}
-//}
+else {
+   multiplicand = eval(userInput);
+   multiple = multiplicand * multiplier;
+   document.write(" Table Of " + multiplicand + "<br />");
+   for (var i = 0; i < 10; i++) {
+	document.write(multiplicand + " x " + multiplier + " = " + multiple + "<br />");
+	multiplier++;
+	multiple = multiplicand * multiplier;
+   }
+}
+}
 
+if (taskNumber === 6) {
 //Question 6
-//var max_marks = 100, total_marks = 300;
-//var subject1, subject2, subject3;
-//var obt_marks1, obt_marks2, obt_marks3;
-//var total_obt_marks;
-//var percentage1, percentage2, percentage3, total_percentage;
+var max_marks = 100, total_marks = 300;
+var subject1, subject2, subject3;
+var obt_marks1, obt_marks2, obt_marks3;
+var total_obt_marks;
+var percentage1, percentage2, percentage3, total_percentage;
 
-//subject1 = prompt("Enter first subject:");
-//while (subject1 === null || subject1 === "") {
-//				if (subject1 === null) {
-//								alert("You can't cancel!");
-//								subject1 = prompt("Enter first subject:");
-//				}
-//				if (subject1 === "") {
-//								alert("You entered nothing!");
-//								subject1 = prompt("Enter first subject:");
-//				}
-//}
-//obt_marks1 = prompt("Enter obtained marks:");
-//while (obt_marks1 === null || obt_marks1 === "" || obt_marks1 > max_marks) {
-//				if (obt_marks1 === null) {
-//								alert("You can't cancel!");
-//								obt_marks1 = prompt("Enter obtained marks:");
-//				}
-//				if (obt_marks1 === "") {
-//								alert("You entered nothing!");
-//								obt_marks1 = prompt("Enter obtained marks:");
-//				}
-//				if (obt_marks1 > max_marks) {
-//								alert("Max marks are 100!");
-//								obt_marks1 = prompt("Enter obtained marks:");
-//				}
-//}
+subject1 = prompt("Enter first subject:");
+while (subject1 === null || subject1 === "") {
+	if (subject1 === null) {
+		alert("You can't cancel!");
+		subject1 = prompt("Enter first subject:");
+	}
+	if (subject1 === "") {
+		alert("You entered nothing!");
+		subject1 = prompt("Enter first subject:");
+	}
+}
+obt_marks1 = prompt("Enter obtained marks:");
+while (obt_marks1 === null || obt_marks1 === "" || obt_marks1 > max_marks) {
+	if (obt_marks1 === null) {
+	        alert("You can't cancel!");
+		obt_marks1 = prompt("Enter obtained marks:");
+	}
+	if (obt_marks1 === "") {
+		alert("You entered nothing!");
+		obt_marks1 = prompt("Enter obtained marks:");
+	}
+	if (obt_marks1 > max_marks) {
+		alert("Max marks are 100!");
+		obt_marks1 = prompt("Enter obtained marks:");
+	}
+}
 
-//subject2 = prompt("Enter second subject:");
-//while (subject2 === null || subject2 === "") {
-//				if (subject2 === null) {
-//								alert("You can't cancel!");
-//								subject2 = prompt("Enter second subject:");
-//				}
-//				if (subject2 === ""){
-//								alert("You entered nothing!");
-//								subject2 = prompt("Enter second subject:");
-//				}
-//}
-//obt_marks2 = prompt("Enter obtained marks:");
-//while (obt_marks2 === null || obt_marks2 === "" || obt_marks2 > 100) {
-//				if (obt_marks2 === null) {
-//								alert("You can't cancel!");
-//								obt_marks2 = prompt("Enter obtained marks:");
-//				}
-//				if (obt_marks2 === "") {
-//								alert("You entered nothing!");
-//								obt_marks2 = prompt("Enter obtained marks:");
-//				}
-//				if (obt_marks2 > max_marks) {
-//								alert("Max marks are 100!");
-//								obt_marks2 = prompt("Enter obtained marks:");
-//				}
-//}
+subject2 = prompt("Enter second subject:");
+while (subject2 === null || subject2 === "") {
+	if (subject2 === null) {
+		alert("You can't cancel!");
+		subject2 = prompt("Enter second subject:");
+	}
+	if (subject2 === ""){
+		alert("You entered nothing!");
+		subject2 = prompt("Enter second subject:");
+	}
+}
+obt_marks2 = prompt("Enter obtained marks:");
+while (obt_marks2 === null || obt_marks2 === "" || obt_marks2 > 100) {
+	if (obt_marks2 === null) {
+		alert("You can't cancel!");
+		obt_marks2 = prompt("Enter obtained marks:");
+	}
+	if (obt_marks2 === "") {
+		alert("You entered nothing!");
+		obt_marks2 = prompt("Enter obtained marks:");
+	}
+	if (obt_marks2 > max_marks) {
+		alert("Max marks are 100!");
+		obt_marks2 = prompt("Enter obtained marks:");
+	}
+}
 
-//subject3 = prompt("Enter third subject:");
-//while (subject3 === null || subject3 === "") {
-//				if (subject3 === null) {
-//			alert("You can't cancel!");
-//								subject3 = prompt("Enter third subject:");
-//				}
-//				if (subject3 === "") {
-//								alert("You entered nothing!");
-//								subject3 = prompt("Enter third //subject:");
-//				}
-//}
-//obt_marks3 = prompt("Enter obtained marks:");
-//while (obt_marks3 === null || obt_marks3 === "" || obt_marks3 > max_marks) {
-//				if (obt_marks3 === null) {
-//								alert("You can't cancel!");
-//								obt_marks3 = prompt("Enter obtained marks:");
-//				}
-//				if (obt_marks3 === "") {
-//								alert("You entered nothing!");
-//								obt_marks3 = prompt("Enter obtained marks:");
-//				}
-//				if (obt_marks3 > max_marks) {
-//								alert("Max marks are 100!");
-//								obt_marks3 = prompt("Enter obtained //marks:");
-//				}
-//}
+subject3 = prompt("Enter third subject:");
+while (subject3 === null || subject3 === "") {
+	if (subject3 === null) {
+		alert("You can't cancel!");
+		subject3 = prompt("Enter third subject:");
+	}
+	if (subject3 === "") {
+		alert("You entered nothing!");
+		subject3 = prompt("Enter third subject:");
+	}
+}
+obt_marks3 = prompt("Enter obtained marks:");
+while (obt_marks3 === null || obt_marks3 === "" || obt_marks3 > max_marks) {
+	if (obt_marks3 === null) {
+		alert("You can't cancel!");
+		obt_marks3 = prompt("Enter obtained marks:");
+	}
+	if (obt_marks3 === "") {
+		alert("You entered nothing!");
+		obt_marks3 = prompt("Enter obtained marks:");
+	}
+	if (obt_marks3 > max_marks) {
+		alert("Max marks are 100!");
+		obt_marks3 = prompt("Enter obtained //marks:");
+	}
+}
 
-//percentage1 = (obt_marks1 * 100) / max_marks;
-//percentage2 = (obt_marks2 * 100) / max_marks;
-//percentage3 = (obt_marks3 * 100) / max_marks;
-//total_obt_marks = eval(obt_marks1) + eval(obt_marks2) + eval(obt_marks3);
-//total_percentage = (total_obt_marks * 100) / total_marks;
+percentage1 = (obt_marks1 * 100) / max_marks;
+percentage2 = (obt_marks2 * 100) / max_marks;
+percentage3 = (obt_marks3 * 100) / max_marks;
+total_obt_marks = eval(obt_marks1) + eval(obt_marks2) + eval(obt_marks3);
+total_percentage = (total_obt_marks * 100) / total_marks;
 
-//document.write("<table>")
-//document.write("<tr><th><center>Subject</center></th><th><center>Total Marks</center></th><th><center>Obtained Marks</center></th><th><center>Percentage</center></th></tr>")
-//document.write("<tr><td><center>" + subject1 + "</center></td><td><center>" + max_marks + "</center></td><td><center>" + obt_marks1 + "</center></td><td><center>" + percentage1 + "</center></td></td>")
-//document.write("<tr><td><center>" + subject2 + "</center></td><td><center>" + max_marks + "</center></td><td><center>" + obt_marks2 + "</center></td><td><center>" + percentage2 + "</center></td></td>")
-//document.write("<tr><td><center>" + subject3 + "</center></td><td><center>" + max_marks + "</center></td><td><center>" + obt_marks3 + "</center></td><td><center>" + percentage3 + "</center></td></td>")
-//document.write("<tr><td></td>" + "<td><center>" + total_marks + "</center></td><td><center>" + total_obt_marks + "</center></td><td><center>" + total_percentage + "</center></td></td>")
-//document.write("</table>")
+document.write("<table>")
+document.write("<tr><th><center>Subject</center></th><th><center>Total Marks</center></th><th><center>Obtained Marks</center></th><th><center>Percentage</center></th></tr>")
+document.write("<tr><td><center>" + subject1 + "</center></td><td><center>" + max_marks + "</center></td><td><center>" + obt_marks1 + "</center></td><td><center>" + percentage1 + "</center></td></td>")
+document.write("<tr><td><center>" + subject2 + "</center></td><td><center>" + max_marks + "</center></td><td><center>" + obt_marks2 + "</center></td><td><center>" + percentage2 + "</center></td></td>")
+document.write("<tr><td><center>" + subject3 + "</center></td><td><center>" + max_marks + "</center></td><td><center>" + obt_marks3 + "</center></td><td><center>" + percentage3 + "</center></td></td>")
+document.write("<tr><td></td>" + "<td><center>" + total_marks + "</center></td><td><center>" + total_obt_marks + "</center></td><td><center>" + total_percentage + "</center></td></td>")
+document.write("</table>")
+}
+
+else {
+   alert("Invalid Input!");
+}
