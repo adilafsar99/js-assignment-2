@@ -37,7 +37,7 @@ if (taskNumber === 1) {
 //Question 1
 var num1 = 5, num2 = 10;
 var sum = num1 + num2;
-document.write("The sum of " + num1 + " and " + num2 + " is " + sum);
+document.write("The sum of " + num1 + " and " + num2 + " is " + sum + ".");
 }
 
 else if (taskNumber === 2) {
@@ -46,22 +46,22 @@ else if (taskNumber === 2) {
 //Subtraction
 var num1 = 5, num2 = 10;
 var difference = num1 - num2;
-document.write("The difference between " + num1 + " and " + num2 + " is " + difference + "<br />");
+document.write("The difference between " + num1 + " and " + num2 + " is " + difference + ".<br />");
 
 //Multiplication
 var num1 = 5, num2 = 10;
 var product = num1 * num2;
-document.write("The product of " + num1 + " and " + num2 + " is " + product + "<br />");
+document.write("The product of " + num1 + " and " + num2 + " is " + product + ".<br />");
 
 //Division
 var num1 = 5, num2 = 10;
 var quotient = num1 / num2;
-document.write("The quotient of " + num1 + " divied by " + num2 + " is " + quotient + "<br />");
+document.write("The quotient of " + num1 + " divied by " + num2 + " is " + quotient + ".<br />");
 
 //Modulus
 var num1 = 5, num2 = 10;
 var remainder = num1 % num2;
-document.write("The remainder of " + num1 + " divided by " + num2 + " is " + remainder);
+document.write("The remainder of " + num1 + " divided by " + num2 + " is " + remainder + ".");
 }
 
 else if (taskNumber === 3) {
@@ -319,7 +319,7 @@ else {
 }
 }
 
-if (taskNumber === 6) {
+else if (taskNumber === 6) {
 //Question 6
 var max_marks = 100, total_marks = 300;
 var subject1, subject2, subject3;
